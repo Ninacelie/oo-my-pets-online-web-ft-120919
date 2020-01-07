@@ -7,14 +7,14 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @@all << self 
+    @@all << self
   end
 
   def self.all
     @@all
   end
 
-  def self.count 
+  def self.count
     self.all.length
   end
 
