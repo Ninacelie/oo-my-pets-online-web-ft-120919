@@ -7,8 +7,8 @@ class Owner
     @species = "human"
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 
   def say_species
