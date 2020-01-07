@@ -6,5 +6,5 @@ class Owner
     @name = name
     @owner.name = name 
   end
-  
+
 end
