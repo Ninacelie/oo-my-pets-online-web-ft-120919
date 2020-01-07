@@ -1,7 +1,7 @@
 class Cat
 
-  attr_accessor :name
-  attr_reader :owner
+  attr_accessor :owner 
+  attr_reader :name 
 
   def initialize(name, owner)
     @name = name
