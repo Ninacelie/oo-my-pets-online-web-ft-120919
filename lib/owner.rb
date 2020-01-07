@@ -1,5 +1,6 @@
 class Owner
 
+  attr_accessor :cats 
   attr_reader :name, :species
 
   @@all = []
@@ -8,6 +9,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
+    @cats = []
   end
 
   def self.all
